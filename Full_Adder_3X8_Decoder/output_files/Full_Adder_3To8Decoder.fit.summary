@@ -1,0 +1,11 @@
+Fitter Status : Successful - Thu Jun 06 22:31:04 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Full_Adder_3To8Decoder
+Top-level Entity Name : DUT
+Family : MAX V
+Device : 5M1270ZT144C5
+Timing Models : Final
+Total logic elements : 2 / 1,270 ( < 1 % )
+Total pins : 5 / 114 ( 4 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Tue Jun 11 12:15:39 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : FIBONACCI_B
+Top-level Entity Name : TopLevel
+Family : MAX V
+Total logic elements : 129
+Total pins : 5
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

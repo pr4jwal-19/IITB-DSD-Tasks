@@ -1,0 +1,129 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/ALU_Design_2/simulation/modelsim
+Ealu_2
+Z1 w1718170632
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/intelFPGA_lite/18.1/ALU_Design_2/ALU_2.vhd
+Z6 FC:/intelFPGA_lite/18.1/ALU_Design_2/ALU_2.vhd
+l0
+L5
+V0Xj]WGR7@eXV`g9InXjlg0
+!s100 GF]:KA8TP207G@N?0eg]>2
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1718170646
+!i10b 1
+Z9 !s108 1718170646.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/ALU_Design_2/ALU_2.vhd|
+Z11 !s107 C:/intelFPGA_lite/18.1/ALU_Design_2/ALU_2.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehave
+R2
+R3
+R4
+DEx4 work 5 alu_2 0 22 0Xj]WGR7@eXV`g9InXjlg0
+l130
+L14
+V_1OnL05XJ3o:Ab6zSJcjL2
+!s100 aZRli_I50G3bdRz3Y^N@;3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edut
+Z14 w1718167376
+R3
+R4
+R0
+Z15 8C:/intelFPGA_lite/18.1/ALU_Design_2/DUT.vhdl
+Z16 FC:/intelFPGA_lite/18.1/ALU_Design_2/DUT.vhdl
+l0
+L8
+VmTO;9jTO0^9ZR9Q5;8B[M0
+!s100 8m>k@fWA92fQ;<VZ5FJP=3
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/ALU_Design_2/DUT.vhdl|
+Z18 !s107 C:/intelFPGA_lite/18.1/ALU_Design_2/DUT.vhdl|
+!i113 1
+R12
+R13
+Adutwrap
+R3
+R4
+DEx4 work 3 dut 0 22 mTO;9jTO0^9ZR9Q5;8B[M0
+l23
+L13
+Vio^5O7OZR:eQ?JmZFO?:W0
+!s100 HlJ?WflAV_e0UJhbHidUO0
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Etestbench
+Z19 w1718167386
+R4
+R3
+R0
+Z20 8C:/intelFPGA_lite/18.1/ALU_Design_2/Testbench.vhdl
+Z21 FC:/intelFPGA_lite/18.1/ALU_Design_2/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R7
+31
+Z22 !s110 1718170647
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/ALU_Design_2/Testbench.vhdl|
+Z24 !s107 C:/intelFPGA_lite/18.1/ALU_Design_2/Testbench.vhdl|
+!i113 1
+R12
+R13
+Abehave
+R4
+R3
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+VcfzYFL`M2dnHzR=ze3?4I2
+!s100 @hPL<YhO9dTTb=2iMjmFP3
+R7
+31
+R22
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13

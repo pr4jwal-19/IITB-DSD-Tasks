@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/intelFPGA_lite/18.1/and_design/Testbench.vhdl
+source_file = 1, C:/intelFPGA_lite/18.1/and_design/Gates.vhdl
+source_file = 1, C:/intelFPGA_lite/18.1/and_design/DUT.vhdl
+source_file = 1, C:/intelFPGA_lite/18.1/and_design/AND_Demo1.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/intelFPGA_lite/18.1/and_design/db/AND_Demo1.cbx.xml
+design_name = DUT
+instance = comp, \input_vector[0]~I\, input_vector[0], DUT, 1
+instance = comp, \input_vector[1]~I\, input_vector[1], DUT, 1
+instance = comp, \add_instance|inst1|Y~0\, add_instance|inst1|Y~0, DUT, 1
+instance = comp, \output_vector[0]~I\, output_vector[0], DUT, 1

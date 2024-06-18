@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Thu Jun 06 22:31:00 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Full_Adder_3To8Decoder
+Top-level Entity Name : DUT
+Family : MAX V
+Total logic elements : 2
+Total pins : 5
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

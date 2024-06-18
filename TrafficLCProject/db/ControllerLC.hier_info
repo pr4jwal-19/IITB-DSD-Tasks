@@ -1,0 +1,205 @@
+|ControllerLC
+clock => TimerCkt_G:Delay1.clk
+clock => TimerCkt_Y:Delay2.clk
+clock => Y_Curr~1.DATAIN
+rst => Y_Curr.OUTPUTSELECT
+rst => Y_Curr.OUTPUTSELECT
+rst => Y_Curr.OUTPUTSELECT
+rst => Y_Curr.OUTPUTSELECT
+rst => Y_Curr.OUTPUTSELECT
+rst => Y_Curr.OUTPUTSELECT
+rst => Y_Curr.OUTPUTSELECT
+rst => Y_Curr.OUTPUTSELECT
+rst => Y_Curr.OUTPUTSELECT
+rst => TimerCkt_G:Delay1.reset
+rst => TimerCkt_Y:Delay2.reset
+Y[0] << Encoder_4X2:inst4.Dirn[0]
+Y[1] << Encoder_4X2:inst4.Dirn[1]
+Y[2] << Encoder_4X2:inst3.Dirn[0]
+Y[3] << Encoder_4X2:inst3.Dirn[1]
+Y[4] << Encoder_4X2:inst2.Dirn[0]
+Y[5] << Encoder_4X2:inst2.Dirn[1]
+Y[6] << Encoder_4X2:inst1.Dirn[0]
+Y[7] << Encoder_4X2:inst1.Dirn[1]
+
+
+|ControllerLC|TimerCkt_G:Delay1
+clk => inG.CLK
+clk => bit_rep_clk_G[0].CLK
+clk => bit_rep_clk_G[1].CLK
+clk => bit_rep_clk_G[2].CLK
+clk => bit_rep_clk_G[3].CLK
+clk => bit_rep_clk_G[4].CLK
+clk => bit_rep_clk_G[5].CLK
+clk => bit_rep_clk_G[6].CLK
+clk => bit_rep_clk_G[7].CLK
+clk => bit_rep_clk_G[8].CLK
+clk => bit_rep_clk_G[9].CLK
+clk => bit_rep_clk_G[10].CLK
+clk => bit_rep_clk_G[11].CLK
+clk => bit_rep_clk_G[12].CLK
+clk => bit_rep_clk_G[13].CLK
+clk => bit_rep_clk_G[14].CLK
+clk => bit_rep_clk_G[15].CLK
+clk => bit_rep_clk_G[16].CLK
+clk => bit_rep_clk_G[17].CLK
+clk => bit_rep_clk_G[18].CLK
+clk => bit_rep_clk_G[19].CLK
+clk => bit_rep_clk_G[20].CLK
+clk => bit_rep_clk_G[21].CLK
+clk => bit_rep_clk_G[22].CLK
+clk => bit_rep_clk_G[23].CLK
+clk => bit_rep_clk_G[24].CLK
+clk => bit_rep_clk_G[25].CLK
+clk => bit_rep_clk_G[26].CLK
+clk => bit_rep_clk_G[27].CLK
+clk => bit_rep_clk_G[28].CLK
+clk => bit_rep_clk_G[29].CLK
+clk => bit_rep_clk_G[30].CLK
+clk => bit_rep_clk_G[31].CLK
+reset => inG.ACLR
+reset => bit_rep_clk_G[0].ACLR
+reset => bit_rep_clk_G[1].ACLR
+reset => bit_rep_clk_G[2].ACLR
+reset => bit_rep_clk_G[3].ACLR
+reset => bit_rep_clk_G[4].ACLR
+reset => bit_rep_clk_G[5].ACLR
+reset => bit_rep_clk_G[6].ACLR
+reset => bit_rep_clk_G[7].ACLR
+reset => bit_rep_clk_G[8].ACLR
+reset => bit_rep_clk_G[9].ACLR
+reset => bit_rep_clk_G[10].ACLR
+reset => bit_rep_clk_G[11].ACLR
+reset => bit_rep_clk_G[12].ACLR
+reset => bit_rep_clk_G[13].ACLR
+reset => bit_rep_clk_G[14].ACLR
+reset => bit_rep_clk_G[15].ACLR
+reset => bit_rep_clk_G[16].ACLR
+reset => bit_rep_clk_G[17].ACLR
+reset => bit_rep_clk_G[18].ACLR
+reset => bit_rep_clk_G[19].ACLR
+reset => bit_rep_clk_G[20].ACLR
+reset => bit_rep_clk_G[21].ACLR
+reset => bit_rep_clk_G[22].ACLR
+reset => bit_rep_clk_G[23].ACLR
+reset => bit_rep_clk_G[24].ACLR
+reset => bit_rep_clk_G[25].ACLR
+reset => bit_rep_clk_G[26].ACLR
+reset => bit_rep_clk_G[27].ACLR
+reset => bit_rep_clk_G[28].ACLR
+reset => bit_rep_clk_G[29].ACLR
+reset => bit_rep_clk_G[30].ACLR
+reset => bit_rep_clk_G[31].ACLR
+Delay <= inG.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ControllerLC|TimerCkt_Y:Delay2
+clk => inY.CLK
+clk => bit_rep_clk_Y[0].CLK
+clk => bit_rep_clk_Y[1].CLK
+clk => bit_rep_clk_Y[2].CLK
+clk => bit_rep_clk_Y[3].CLK
+clk => bit_rep_clk_Y[4].CLK
+clk => bit_rep_clk_Y[5].CLK
+clk => bit_rep_clk_Y[6].CLK
+clk => bit_rep_clk_Y[7].CLK
+clk => bit_rep_clk_Y[8].CLK
+clk => bit_rep_clk_Y[9].CLK
+clk => bit_rep_clk_Y[10].CLK
+clk => bit_rep_clk_Y[11].CLK
+clk => bit_rep_clk_Y[12].CLK
+clk => bit_rep_clk_Y[13].CLK
+clk => bit_rep_clk_Y[14].CLK
+clk => bit_rep_clk_Y[15].CLK
+clk => bit_rep_clk_Y[16].CLK
+clk => bit_rep_clk_Y[17].CLK
+clk => bit_rep_clk_Y[18].CLK
+clk => bit_rep_clk_Y[19].CLK
+clk => bit_rep_clk_Y[20].CLK
+clk => bit_rep_clk_Y[21].CLK
+clk => bit_rep_clk_Y[22].CLK
+clk => bit_rep_clk_Y[23].CLK
+clk => bit_rep_clk_Y[24].CLK
+clk => bit_rep_clk_Y[25].CLK
+clk => bit_rep_clk_Y[26].CLK
+clk => bit_rep_clk_Y[27].CLK
+clk => bit_rep_clk_Y[28].CLK
+clk => bit_rep_clk_Y[29].CLK
+clk => bit_rep_clk_Y[30].CLK
+clk => bit_rep_clk_Y[31].CLK
+reset => inY.ACLR
+reset => bit_rep_clk_Y[0].ACLR
+reset => bit_rep_clk_Y[1].ACLR
+reset => bit_rep_clk_Y[2].ACLR
+reset => bit_rep_clk_Y[3].ACLR
+reset => bit_rep_clk_Y[4].ACLR
+reset => bit_rep_clk_Y[5].ACLR
+reset => bit_rep_clk_Y[6].ACLR
+reset => bit_rep_clk_Y[7].ACLR
+reset => bit_rep_clk_Y[8].ACLR
+reset => bit_rep_clk_Y[9].ACLR
+reset => bit_rep_clk_Y[10].ACLR
+reset => bit_rep_clk_Y[11].ACLR
+reset => bit_rep_clk_Y[12].ACLR
+reset => bit_rep_clk_Y[13].ACLR
+reset => bit_rep_clk_Y[14].ACLR
+reset => bit_rep_clk_Y[15].ACLR
+reset => bit_rep_clk_Y[16].ACLR
+reset => bit_rep_clk_Y[17].ACLR
+reset => bit_rep_clk_Y[18].ACLR
+reset => bit_rep_clk_Y[19].ACLR
+reset => bit_rep_clk_Y[20].ACLR
+reset => bit_rep_clk_Y[21].ACLR
+reset => bit_rep_clk_Y[22].ACLR
+reset => bit_rep_clk_Y[23].ACLR
+reset => bit_rep_clk_Y[24].ACLR
+reset => bit_rep_clk_Y[25].ACLR
+reset => bit_rep_clk_Y[26].ACLR
+reset => bit_rep_clk_Y[27].ACLR
+reset => bit_rep_clk_Y[28].ACLR
+reset => bit_rep_clk_Y[29].ACLR
+reset => bit_rep_clk_Y[30].ACLR
+reset => bit_rep_clk_Y[31].ACLR
+Delay <= inY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ControllerLC|Encoder_4X2:inst1
+Color[0] => ~NO_FANOUT~
+Color[1] => Mux1.IN5
+Color[2] => Mux0.IN5
+Color[3] => Mux0.IN4
+Color[3] => Mux1.IN4
+Dirn[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Dirn[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ControllerLC|Encoder_4X2:inst2
+Color[0] => ~NO_FANOUT~
+Color[1] => Mux1.IN5
+Color[2] => Mux0.IN5
+Color[3] => Mux0.IN4
+Color[3] => Mux1.IN4
+Dirn[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Dirn[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ControllerLC|Encoder_4X2:inst3
+Color[0] => ~NO_FANOUT~
+Color[1] => Mux1.IN5
+Color[2] => Mux0.IN5
+Color[3] => Mux0.IN4
+Color[3] => Mux1.IN4
+Dirn[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Dirn[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ControllerLC|Encoder_4X2:inst4
+Color[0] => ~NO_FANOUT~
+Color[1] => Mux1.IN5
+Color[2] => Mux0.IN5
+Color[3] => Mux0.IN4
+Color[3] => Mux1.IN4
+Dirn[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Dirn[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

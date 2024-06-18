@@ -1,0 +1,65 @@
+|DUT
+input_vector[0] => Dec2X4_1:add_instance.en
+input_vector[1] => Dec2X4_1:add_instance.in2
+input_vector[2] => Dec2X4_1:add_instance.in1
+output_vector[0] <= Dec2X4_1:add_instance.out1
+output_vector[1] <= Dec2X4_1:add_instance.out2
+output_vector[2] <= Dec2X4_1:add_instance.out3
+output_vector[3] <= Dec2X4_1:add_instance.out4
+
+
+|DUT|Dec2X4_1:add_instance
+in1 => INVERTER:inst1.A
+in1 => AND_1:inst5.A
+in1 => AND_1:inst6.A
+in2 => INVERTER:inst2.A
+in2 => AND_1:inst4.B
+in2 => AND_1:inst6.B
+en => AND_1:inst3.C
+en => AND_1:inst4.C
+en => AND_1:inst5.C
+en => AND_1:inst6.C
+out1 <= AND_1:inst3.Y
+out2 <= AND_1:inst4.Y
+out3 <= AND_1:inst5.Y
+out4 <= AND_1:inst6.Y
+
+
+|DUT|Dec2X4_1:add_instance|INVERTER:inst1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Dec2X4_1:add_instance|INVERTER:inst2
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Dec2X4_1:add_instance|AND_1:inst3
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Dec2X4_1:add_instance|AND_1:inst4
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Dec2X4_1:add_instance|AND_1:inst5
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Dec2X4_1:add_instance|AND_1:inst6
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

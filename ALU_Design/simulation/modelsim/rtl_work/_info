@@ -1,0 +1,127 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/ALU_Design/simulation/modelsim
+Ealu_logic
+Z1 w1718118555
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/intelFPGA_lite/18.1/ALU_Design/ALU_Logic.vhd
+Z5 FC:/intelFPGA_lite/18.1/ALU_Design/ALU_Logic.vhd
+l0
+L4
+VkPVoTULH8QU0_?F4@YW>G2
+!s100 2@knz4T8b[P4eV>3>CJFD2
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1718118590
+!i10b 1
+Z8 !s108 1718118590.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/ALU_Design/ALU_Logic.vhd|
+Z10 !s107 C:/intelFPGA_lite/18.1/ALU_Design/ALU_Logic.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aa1
+R2
+R3
+DEx4 work 9 alu_logic 0 22 kPVoTULH8QU0_?F4@YW>G2
+l110
+L14
+V5BkQon9i<<_Wj082h?Egd3
+!s100 eGXW52]G;L[5A22QWM1a50
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1718117425
+R2
+R3
+R0
+Z14 8C:/intelFPGA_lite/18.1/ALU_Design/DUT.vhdl
+Z15 FC:/intelFPGA_lite/18.1/ALU_Design/DUT.vhdl
+l0
+L8
+VVb0aahT?^M8>`4g6jfXJZ1
+!s100 DF=A7V:bSHXmB@nZ[zjVA0
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/ALU_Design/DUT.vhdl|
+Z17 !s107 C:/intelFPGA_lite/18.1/ALU_Design/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 Vb0aahT?^M8>`4g6jfXJZ1
+l25
+L13
+VbV:aaUoNTZEjBSA?RgeVb0
+!s100 DE>D]bWeR3HmSce@f<5e^0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Etestbench
+Z18 w1718116945
+R3
+R2
+R0
+Z19 8C:/intelFPGA_lite/18.1/ALU_Design/Testbench.vhdl
+Z20 FC:/intelFPGA_lite/18.1/ALU_Design/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/ALU_Design/Testbench.vhdl|
+Z22 !s107 C:/intelFPGA_lite/18.1/ALU_Design/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+VB?ln9WA:09P=<a20E;=5B3
+!s100 na67H3I6:f8^4lno><LSC2
+R6
+31
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12

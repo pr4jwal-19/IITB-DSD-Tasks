@@ -1,0 +1,59 @@
+|DUT
+input_vector[0] => DEC3X8_Behave:add_instance.E
+input_vector[1] => DEC3X8_Behave:add_instance.D[0]
+input_vector[2] => DEC3X8_Behave:add_instance.D[1]
+input_vector[3] => DEC3X8_Behave:add_instance.D[2]
+output_vector[0] << DEC3X8_Behave:add_instance.Y[0]
+output_vector[1] << DEC3X8_Behave:add_instance.Y[1]
+output_vector[2] << DEC3X8_Behave:add_instance.Y[2]
+output_vector[3] << DEC3X8_Behave:add_instance.Y[3]
+output_vector[4] << DEC3X8_Behave:add_instance.Y[4]
+output_vector[5] << DEC3X8_Behave:add_instance.Y[5]
+output_vector[6] << DEC3X8_Behave:add_instance.Y[6]
+output_vector[7] << DEC3X8_Behave:add_instance.Y[7]
+
+
+|DUT|DEC3X8_Behave:add_instance
+D[0] => Equal0.IN5
+D[0] => Equal1.IN5
+D[0] => Equal2.IN5
+D[0] => Equal3.IN5
+D[0] => Equal4.IN5
+D[0] => Equal5.IN5
+D[0] => Equal6.IN5
+D[0] => Equal7.IN5
+D[1] => Equal0.IN4
+D[1] => Equal1.IN4
+D[1] => Equal2.IN4
+D[1] => Equal3.IN4
+D[1] => Equal4.IN4
+D[1] => Equal5.IN4
+D[1] => Equal6.IN4
+D[1] => Equal7.IN4
+D[2] => Equal0.IN3
+D[2] => Equal1.IN3
+D[2] => Equal2.IN3
+D[2] => Equal3.IN3
+D[2] => Equal4.IN3
+D[2] => Equal5.IN3
+D[2] => Equal6.IN3
+D[2] => Equal7.IN3
+E => process_0.IN1
+E => process_0.IN1
+E => process_0.IN1
+E => process_0.IN1
+E => process_0.IN1
+E => process_0.IN1
+E => process_0.IN1
+E => process_0.IN1
+E => Y[7].IN1
+Y[0] <= Y[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= Y[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= Y[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] <= Y[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[7] <= Y[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

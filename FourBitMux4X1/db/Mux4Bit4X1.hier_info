@@ -1,0 +1,56 @@
+|DUT
+input_vector[0] => MUX4X1_4BitIp:add_instance.S[0]
+input_vector[1] => MUX4X1_4BitIp:add_instance.S[1]
+input_vector[2] => MUX4X1_4BitIp:add_instance.A[2]
+input_vector[3] => MUX4X1_4BitIp:add_instance.A[3]
+input_vector[4] => MUX4X1_4BitIp:add_instance.A[4]
+input_vector[5] => MUX4X1_4BitIp:add_instance.A[5]
+input_vector[6] => MUX4X1_4BitIp:add_instance.B[6]
+input_vector[7] => MUX4X1_4BitIp:add_instance.B[7]
+input_vector[8] => MUX4X1_4BitIp:add_instance.B[8]
+input_vector[9] => MUX4X1_4BitIp:add_instance.B[9]
+input_vector[10] => MUX4X1_4BitIp:add_instance.C[10]
+input_vector[11] => MUX4X1_4BitIp:add_instance.C[11]
+input_vector[12] => MUX4X1_4BitIp:add_instance.C[12]
+input_vector[13] => MUX4X1_4BitIp:add_instance.C[13]
+input_vector[14] => MUX4X1_4BitIp:add_instance.D[14]
+input_vector[15] => MUX4X1_4BitIp:add_instance.D[15]
+input_vector[16] => MUX4X1_4BitIp:add_instance.D[16]
+input_vector[17] => MUX4X1_4BitIp:add_instance.D[17]
+output_vector[0] << MUX4X1_4BitIp:add_instance.Y[0]
+output_vector[1] << MUX4X1_4BitIp:add_instance.Y[1]
+output_vector[2] << MUX4X1_4BitIp:add_instance.Y[2]
+output_vector[3] << MUX4X1_4BitIp:add_instance.Y[3]
+
+
+|DUT|MUX4X1_4BitIp:add_instance
+D[0] => Y[0].DATAA
+D[1] => Y[1].DATAA
+D[2] => Y[2].DATAA
+D[3] => Y[3].DATAA
+C[0] => Y[0].DATAB
+C[1] => Y[1].DATAB
+C[2] => Y[2].DATAB
+C[3] => Y[3].DATAB
+B[0] => Y[0].DATAB
+B[1] => Y[1].DATAB
+B[2] => Y[2].DATAB
+B[3] => Y[3].DATAB
+A[0] => Y[0].DATAB
+A[1] => Y[1].DATAB
+A[2] => Y[2].DATAB
+A[3] => Y[3].DATAB
+S[0] => process_0.IN0
+S[0] => process_0.IN0
+S[0] => process_0.IN0
+S[0] => process_0.IN0
+S[1] => process_0.IN1
+S[1] => process_0.IN1
+S[1] => process_0.IN1
+S[1] => process_0.IN1
+Y[0] <= Y[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,126 @@
+|DUT
+input_vector[0] => Full_Adder_3To8Decoder:add_instance.C
+input_vector[1] => Full_Adder_3To8Decoder:add_instance.B
+input_vector[2] => Full_Adder_3To8Decoder:add_instance.A
+output_vector[0] << Full_Adder_3To8Decoder:add_instance.Cout
+output_vector[1] << Full_Adder_3To8Decoder:add_instance.Sum
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance
+A => Dec3X8_1:inst1.A2
+B => Dec3X8_1:inst1.A1
+C => Dec3X8_1:inst1.A0
+Sum <= OR_2:inst4.Y
+Cout <= OR_2:inst7.Y
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance|Dec3X8_1:inst1
+A1 => DEC2X4:inst4.in1
+A1 => DEC2X4:inst5.in1
+A0 => DEC2X4:inst4.in2
+A0 => DEC2X4:inst5.in2
+A2 => INVERTER:inst1.A
+A2 => AND_2:inst2.A
+EN => AND_2:inst2.B
+EN => AND_2:inst3.A
+out1 <= DEC2X4:inst5.Y1
+out2 <= DEC2X4:inst5.Y2
+out3 <= DEC2X4:inst5.Y3
+out4 <= DEC2X4:inst5.Y4
+out5 <= DEC2X4:inst4.Y1
+out6 <= DEC2X4:inst4.Y2
+out7 <= DEC2X4:inst4.Y3
+out8 <= DEC2X4:inst4.Y4
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance|Dec3X8_1:inst1|INVERTER:inst1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance|Dec3X8_1:inst1|AND_2:inst2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance|Dec3X8_1:inst1|AND_2:inst3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance|Dec3X8_1:inst1|DEC2X4:inst4
+in1 => Y3.IN0
+in1 => Y4.IN0
+in1 => Y1.IN0
+in1 => Y2.IN0
+in2 => Y2.IN1
+in2 => Y4.IN1
+in2 => Y1.IN1
+in2 => Y3.IN1
+en => Y1.IN1
+en => Y2.IN1
+en => Y3.IN1
+en => Y4.IN1
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+Y3 <= Y3.DB_MAX_OUTPUT_PORT_TYPE
+Y4 <= Y4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance|Dec3X8_1:inst1|DEC2X4:inst5
+in1 => Y3.IN0
+in1 => Y4.IN0
+in1 => Y1.IN0
+in1 => Y2.IN0
+in2 => Y2.IN1
+in2 => Y4.IN1
+in2 => Y1.IN1
+in2 => Y3.IN1
+en => Y1.IN1
+en => Y2.IN1
+en => Y3.IN1
+en => Y4.IN1
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+Y3 <= Y3.DB_MAX_OUTPUT_PORT_TYPE
+Y4 <= Y4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance|OR_2:inst2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance|OR_2:inst3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance|OR_2:inst4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance|OR_2:inst5
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance|OR_2:inst6
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_Adder_3To8Decoder:add_instance|OR_2:inst7
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

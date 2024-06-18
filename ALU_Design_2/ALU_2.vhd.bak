@@ -1,0 +1,57 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ALU_2 is
+
+	port ( A : in std_logic_vector(3 downto 0);
+			 B : in std_logic_vector(3 downto 0);
+			 Y : out std_logic_vector(5 downto 0)
+			);
+			
+end entity;
+
+architecture behave of ALU_2 is
+
+	function max ( A : in std_logic_vector(3 downto 0); B : std_logic_vector(3 downto 0) )
+	
+	return std_logic_vector is
+		
+		variable numA : to_integer(unsigned(A));
+		variable numB : to_integer(unsigned(B));
+		variable maxNum : std_logic_vector(3 downto 0):=(others => '0');
+		
+		begin
+		
+		if( numA > numB ) then
+			maxNum := std_logic_vector(to_unsigned(numA,A'length));
+		elsif ( numB > numA ) then
+			maxNum := std_logic_vector(to_unsigned(numB,B'length));
+		else maxNum := "0000";
+		
+		end if;
+		
+		return maxNum;
+		
+	end max;
+	
+	function and_fn ( A : in std_logic_vector(3 downto 0); B : std_logic_vector(3 downto 0) )
+	
+	return std_logic_vector is
+		
+		variable and_op : std_logic_vector(3 downto 0);
+		
+		begin
+			
+			and_op := A and B;
+			
+		return and_op;
+	
+	end and_fn;
+	
+	function rotate ( A : in std_logic_vector(3 downto 0); B : std_logic_vector(3 downto 0) )
+	
+	return std_logic_vector is
+		
+		variable rotatedOp : std_logic
+			
+			

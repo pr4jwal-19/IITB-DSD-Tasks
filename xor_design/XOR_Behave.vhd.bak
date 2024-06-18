@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+library work;
+use work.Gates.all;
+
+entity XOR_Behave is
+	
+	port( A, B: in std_logic;
+			Y : out std_logic );
+	
+end entity;
+
+architecture struct of XOR_Behave is
+
+	signal sig1, sig2, sig3 : std_logic;
+	
+begin 
+
+p1: process( A , B, sig1, sig2, sig3 ) 
+
+begin 
+
+sig1 <= not ( A and B );
+sig2 <= not ( A and sig1 );
+sig3 <= not ( sig1 and B );
+Y <= not ( sig2 and sig3 );
+
+end process p1;
+
+end architecture;

@@ -1,0 +1,80 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+library work;
+use work.Gates.all;
+
+entity Test2_Multiplier is
+	
+	port ( A : in std_logic_vector(7 downto 0);
+			 M : in std_logic;
+			 MOp : out std_logic_vector(7 downto 0)
+			);
+			
+end entity;
+
+architecture struct of Test2_Multiplier is 
+
+component FourBitAdder_1 is
+ 
+	port (a0,a1,a2,a3,b0,b1,b2,b3,cin1: in std_logic;  s0,s1,s2,s3,cout:out std_logic);
+
+end component FourBitAdder_1;
+	
+	signal carry, sig1, sig2, sig3, sig4, sig5, sig6, sig7, sig8, sig9, sig10 : std_logic;
+	
+	begin
+	
+		variable shiftedOp : std_logic_vector(7 downto 0);
+		
+		process(A)
+			
+			begin
+			
+			if ( M = '1' ) then 
+			shiftedOp := A(6 downto 0) & '0';
+			
+			for i in 0 to 7 loop
+				
+				if i < 4 then
+					
+					inst1: FourBitAdder_1 port map ( a(i) => A(i) , b(i) => shiftedOp(i), cin => '0', cout => carry, s(i) => M(i) );
+					
+				elsif i > 3 then
+					
+					inst2: FourBitAdder_1 port map ( a(i) => A(i) , b(i) => shiftedOp(i), cin => carry, cout => sig1, s(7-i) => M(i) );
+					
+				end if;
+				
+			end loop;
+			
+			else
+			
+			 shiftedOp := A(5 downto 0) & "00";
+			 
+			 for i in 0 to 7 loop
+				
+				if i < 4 then
+					
+					inst1: FourBitAdder_1 port map ( a(i) => A(i) , b(i) => shiftedOp(i), cin => '0', cout => carry, s(i) => M(i) );
+					
+				elsif i > 3 then
+					
+					inst2: FourBitAdder_1 port map ( a(i) => A(i) , b(i) => shiftedOp(i), cin => carry, cout => sig1, s(7-i) => M(i) );
+					
+				end if;
+				
+			 end loop;
+			 
+			end if;
+	
+	end process;
+	
+end architecture;
+			
+			
+				
+				
+				
+	
+	

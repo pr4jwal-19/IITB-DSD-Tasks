@@ -1,0 +1,28 @@
+
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+library work;
+use work.Gates.all;
+
+entity BCD_Behavioral_1 is 
+
+	port ( a,b : std_logic ( 3 downto 0 );
+			 sum: std_logic (3 downto 0 );
+			 carry: std_logic
+			);
+			
+end entity;
+
+architecture behave of BCD_Behavioral_1 is
+	
+begin 
+
+bcd: process(a,b)
+	
+	begin
+		
+	variable temp_sum : unsigned 
+			
+			

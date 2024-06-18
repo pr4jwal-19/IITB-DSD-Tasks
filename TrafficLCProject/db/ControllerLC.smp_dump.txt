@@ -1,0 +1,12 @@
+
+State Machine - |ControllerLC|Y_Curr
+Name Y_Curr.S8 Y_Curr.S7 Y_Curr.S6 Y_Curr.S5 Y_Curr.S4 Y_Curr.S3 Y_Curr.S2 Y_Curr.S1 Y_Curr.S0 
+Y_Curr.S0 0 0 0 0 0 0 0 0 0 
+Y_Curr.S1 0 0 0 0 0 0 0 1 1 
+Y_Curr.S2 0 0 0 0 0 0 1 0 1 
+Y_Curr.S3 0 0 0 0 0 1 0 0 1 
+Y_Curr.S4 0 0 0 0 1 0 0 0 1 
+Y_Curr.S5 0 0 0 1 0 0 0 0 1 
+Y_Curr.S6 0 0 1 0 0 0 0 0 1 
+Y_Curr.S7 0 1 0 0 0 0 0 0 1 
+Y_Curr.S8 1 0 0 0 0 0 0 0 1 

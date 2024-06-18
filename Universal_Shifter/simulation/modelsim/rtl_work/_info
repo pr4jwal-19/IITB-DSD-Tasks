@@ -1,0 +1,583 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/Universal_Shifter/simulation/modelsim
+Eand_2
+Z1 w1717656600
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/intelFPGA_lite/18.1/Universal_Shifter/Gates.vhdl
+Z5 FC:/intelFPGA_lite/18.1/Universal_Shifter/Gates.vhdl
+l0
+L59
+VEZ2D<X;^P<mhD?oYSoZVj1
+!s100 I6a;h`m1l>_P==[;fjQ`@1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1717739696
+!i10b 1
+Z8 !s108 1717739696.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/Universal_Shifter/Gates.vhdl|
+Z10 !s107 C:/intelFPGA_lite/18.1/Universal_Shifter/Gates.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 EZ2D<X;^P<mhD?oYSoZVj1
+l64
+L63
+VY^DPFg?I0<FA[cHI4QgS90
+!s100 OS4[mm7YAehBWh`cRa9VV2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1717655945
+R2
+R3
+R0
+Z14 8C:/intelFPGA_lite/18.1/Universal_Shifter/DUT.vhdl
+Z15 FC:/intelFPGA_lite/18.1/Universal_Shifter/DUT.vhdl
+l0
+L8
+VD1kVmifMeDYoGLV<b2Q8h1
+!s100 <dkG^P^>M>5;Em=PFLUO=0
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/Universal_Shifter/DUT.vhdl|
+Z17 !s107 C:/intelFPGA_lite/18.1/Universal_Shifter/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 D1kVmifMeDYoGLV<b2Q8h1
+l23
+L13
+VjZD^oGZcWVUzR_=0V@HZM3
+!s100 @o6zGkc6Ab9a=QU[:EQ8@0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L3
+VUFA:EKcOe72C3RhFc85`^0
+!s100 P]:eN?gnGGC?S`k^Db^1Z1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L126
+VO5`?Bi9H0U1Y=nH8I;W:;3
+!s100 Mn5Xn5oeBf<SEh^kmV@?K0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 half_adder 0 22 O5`?Bi9H0U1Y=nH8I;W:;3
+l131
+L130
+V_D0mFSDk>j4Q=bMR`f7AL1
+!s100 <JI05_lZCaJEIT;X>>cD61
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L47
+VBIOamM3EK06VPlCm?A8YE2
+!s100 ^@6FTiNl<S76gX^6lE=Oo3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 BIOamM3EK06VPlCm?A8YE2
+l52
+L51
+Vo?3RU59gRd979WAidJl>g0
+!s100 R:j7bZmz@DRP3]];CFDdR0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux_2x1
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L139
+VzL7DXB8C_FXUe;miB9EIC1
+!s100 PH=JaFlhha5iZDK@?FK3B2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 7 mux_2x1 0 22 zL7DXB8C_FXUe;miB9EIC1
+l146
+L145
+V[H5UIUBA>6PZ0:bOmIN;_0
+!s100 a2`[c3?dOI^@F>o6@eA?l1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enand_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L70
+VcTH:KFODdnT[iCQSNbonf0
+!s100 2RYX9^CFh6J>LDg_n_R`X0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 nand_2 0 22 cTH:KFODdnT[iCQSNbonf0
+l75
+L74
+V>0LJ1Id[NSVG5HS07QAg>3
+!s100 l4gbXa5=bNlo^><@LnR;`3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L92
+V6]fcS^>ff?d?DJ8R<2af>2
+!s100 Ic4o3N<AJ=3YGiKDUH]0n3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 nor_2 0 22 6]fcS^>ff?d?DJ8R<2af>2
+l97
+L96
+V5B^knP:jA[lV:ojk[6n2Z0
+!s100 0TL1^49oGHGoelzZV[?`03
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L81
+Vb1GTefmiRWhzjKL`5763o1
+!s100 ?JFE_HLXWaIm`6;@0?]J;0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 b1GTefmiRWhzjKL`5763o1
+l86
+L85
+V;9^Ze9>c?KDSkchdnVga01
+!s100 Y_Ce[fd7^O:il?@j2I0Pe1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z18 w1717655968
+R3
+R2
+R0
+Z19 8C:/intelFPGA_lite/18.1/Universal_Shifter/Testbench.vhdl
+Z20 FC:/intelFPGA_lite/18.1/Universal_Shifter/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/Universal_Shifter/Testbench.vhdl|
+Z22 !s107 C:/intelFPGA_lite/18.1/Universal_Shifter/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+V]CgS?:^6H2=A?f<bKc3gz1
+!s100 XcfD4@>VZZGW6F9]Wi:UR3
+R6
+31
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Etoplevel
+Z23 w1717739576
+Z24 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z25 8C:/intelFPGA_lite/18.1/Universal_Shifter/Scan_Chain_Files/TopLevel.vhdl
+Z26 FC:/intelFPGA_lite/18.1/Universal_Shifter/Scan_Chain_Files/TopLevel.vhdl
+l0
+L5
+VRW=hg7X2^>c3bX1h9KmmK0
+!s100 gJ^gg3F;Qe=>jcbTR:JjO3
+R6
+31
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/Universal_Shifter/Scan_Chain_Files/TopLevel.vhdl|
+Z28 !s107 C:/intelFPGA_lite/18.1/Universal_Shifter/Scan_Chain_Files/TopLevel.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R24
+R2
+R3
+DEx4 work 8 toplevel 0 22 RW=hg7X2^>c3bX1h9KmmK0
+l75
+L13
+V3egHi9i;_]?PdZgk`l7O62
+!s100 ca_LVm6Z3kTDfTCIYVolW1
+R6
+31
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Euniversal_shifter_1
+Z29 w1717655787
+Z30 DPx4 work 5 gates 0 22 UFA:EKcOe72C3RhFc85`^0
+R2
+R3
+R0
+Z31 8C:/intelFPGA_lite/18.1/Universal_Shifter/Universal_Shifter_1.vhd
+Z32 FC:/intelFPGA_lite/18.1/Universal_Shifter/Universal_Shifter_1.vhd
+l0
+L7
+V@O8<US?OD9j7cYkg9Ek9o0
+!s100 mdI[ZEA6^;3ZR@?Ohdz@82
+R6
+31
+R7
+!i10b 1
+R8
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/Universal_Shifter/Universal_Shifter_1.vhd|
+Z34 !s107 C:/intelFPGA_lite/18.1/Universal_Shifter/Universal_Shifter_1.vhd|
+!i113 1
+R11
+R12
+Astruct
+R30
+R2
+R3
+DEx4 work 19 universal_shifter_1 0 22 @O8<US?OD9j7cYkg9Ek9o0
+l17
+L14
+V108^eOi>W1fndLP@1=_D:0
+!s100 ?g[ckizn:3G_DTE9[eda60
+R6
+31
+R7
+!i10b 1
+R8
+R33
+R34
+!i113 1
+R11
+R12
+Ev_jtag
+Z35 w1717739539
+R24
+R2
+R3
+R0
+Z36 8C:/intelFPGA_lite/18.1/Universal_Shifter/Scan_Chain_Files/v_jtag/synthesis/v_jtag.vhd
+Z37 FC:/intelFPGA_lite/18.1/Universal_Shifter/Scan_Chain_Files/v_jtag/synthesis/v_jtag.vhd
+l0
+L9
+VK7J:B[m3^:cB1Km[I3N602
+!s100 C:GMYKMFIUkIMaKNS>ek<2
+R6
+31
+R7
+!i10b 1
+R8
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/Universal_Shifter/Scan_Chain_Files/v_jtag/synthesis/v_jtag.vhd|
+Z39 !s107 C:/intelFPGA_lite/18.1/Universal_Shifter/Scan_Chain_Files/v_jtag/synthesis/v_jtag.vhd|
+!i113 1
+R11
+R12
+Artl
+R24
+R2
+R3
+DEx4 work 6 v_jtag 0 22 K7J:B[m3^:cB1Km[I3N602
+l85
+L44
+VJODH=ZQLe0=R51Pn2gWGM3
+!s100 QN^;ea;8E9NBL5]J::=Mk2
+R6
+31
+R7
+!i10b 1
+R8
+R38
+R39
+!i113 1
+R11
+R12
+Exnor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L115
+VkM``B@@kUjFUEI^?:9G_91
+!s100 =Z<nTFhLU>M`HDzA_F?W<0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xnor_2 0 22 kM``B@@kUjFUEI^?:9G_91
+l120
+L119
+V093O0V]GNhKB1AC<IL>[e3
+!s100 A=Rb9^m`0MVQ[LP@gjf`U3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L104
+V3Sl8IEZ:EEQEWGMUJV?h22
+!s100 U>PYgi5MgTJT7Q8>odG:03
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 xor_2 0 22 3Sl8IEZ:EEQEWGMUJV?h22
+l109
+L108
+VeUlcj]QO3FGDcNP:eje]@1
+!s100 nUlR2<;a:EcfU6m`:f;^a3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

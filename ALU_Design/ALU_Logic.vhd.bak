@@ -1,0 +1,95 @@
+library ieee;
+ use ieee.std_logic_1164.all;
+ 
+ entity ALU_Logic is
+ port (
+ A: in std_logic_vector(3 downto 0);
+ B: in std_logic_vector(3 downto 0);
+ sel: in std_logic_vector(1 downto 0);
+ op: out std_logic_vector(7 downto 0)
+ );
+ 
+ end ALU_Logic;
+ 
+ architecture a1 of ALU_Logic is
+ 
+	function concat ( A: in std_logic_vector(3 downto 0); B: in std_logic_vector(3 downto 0) )
+		
+		return std_logic_vector is
+		
+		variable concatedOp : std_logic_vector(7 downto 0):=(others => '0');
+		
+		concatedOp := A & B;
+		
+		return concatedOp;
+		
+	end concat;
+	
+	function sub(A: in std_logic_vector(3 downto 0); B: in std_logic_vector(3 downto 0))
+	
+		return std_logic_vector is-- declaring and initializing variables using aggregates
+		
+			variable diff : std_logic_vector(4 downto 0):=(others =>'0');
+			variable carry: std_logic_vector(4 downto 0):=(others =>'0');
+			
+			begin-- Hint: Use for loop to calculate value of "diff" and "carry" variable-- Use aggregates to assign values to multiple bits
+			
+			for i in 0 to 4 loop
+			
+			if i < 4 then
+			
+				diff(i) := A(i) xor B(i) xor carry(i);
+				carry(i+1) := ( not A(i) and carry(i) ) or ( not A(i) and B(i) ) or ( B(i) and carry(i) );
+			
+			else
+				
+				diff(4) := carry(4);
+			
+			end if;
+			
+			diff := '000' & diff(4 downto 0);
+			
+			
+			return diff;
+			
+	end sub;
+	
+	function XOR_AB(A: in std_logic_vector(3 downto 0); B: in std_logic_vector(3 downto 0))
+		
+		return std_logic_vector is
+			
+			variable xoredOp : std_logic_vector(3 downto 0):=(others => '0');
+			
+			begin
+				
+				xoredOp := '00000' & (A xor B);
+				
+				return xoredPOp;
+				
+	end XOR_AB;
+	
+	function shift(A: in std_logic_vector(3 downto 0); B: in std_logic_vector(3 downto 0))
+		
+		return std_logic_vector is
+			
+			
+			
+			
+			
+			
+	end shift;
+ 
+ begin
+ 
+ alu : process( A, B, sel )
+		
+		begin-- complete VHDL code for various outputs of ALU based on select lines-- Hint: use if/else statement---- sub function usage :-- signal_name <= sub(A,B)-- variable_name := sub(A,B)---- concatenate operator usage:--
+ 
+ 
+ 
+ 
+ 
+		end process ;--alu
+		
+		
+ end a1 ;

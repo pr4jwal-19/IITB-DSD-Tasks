@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Sun Jun 09 15:16:48 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Half_Adder_1
+Top-level Entity Name : DUT
+Family : MAX V
+Total logic elements : 2
+Total pins : 4
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )
